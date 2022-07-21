@@ -51,7 +51,7 @@ nav{
     padding: 0.5rem 1rem;
     color: var(--blanco);
     border-radius: 5px;
-    font-family: 'Marcelius', serif;
+    font-family: 'Marcellus', serif;
     font-size: 1em;
 }
 
@@ -61,4 +61,72 @@ nav{
 
 .logo img{
     height: 3rem;
+}
+
+/* section features*/
+#features{
+    display: flex;
+    flex-direction: column;
+}
+
+#features{
+    background: url(../img/index/bg-features.png);
+    color: white;
+    padding-top: 1rem;
+}
+
+.features-title{
+    background-color: rgba(0,0,0,0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5em;
+}
+
+.features-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.feature{
+    width: 25%;
+    min-width: 180px;
+    max-width: 230px;
+    margin: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.feature i{
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue{
+    background-color: #00325eae;
+}
+
+.feature-black{
+    background-color: rgba(0,0,0,0.59);
+}
+
+/*basis*/
+
+.base{
+    background-color: #fff;
+    flex-basis: 30% 70%;
+    font-family: Calibri;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    display: flex;
 }

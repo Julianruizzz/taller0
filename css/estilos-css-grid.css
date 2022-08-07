@@ -142,7 +142,7 @@ nav a:hover {
     background-color: rgba(0,0,0,0.35);
     padding-bottom: 5%;
     margin-top: 19rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--blanco);
     display: flex; 
     flex-wrap: wrap-reverse;

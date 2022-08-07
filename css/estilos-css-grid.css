@@ -148,18 +148,33 @@ nav a:hover {
     flex-wrap: wrap-reverse;
 }
 
-#descripcion {
-   margin: 1.5rem;
+.descripcion {
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 400px;
+    margin-top: 60px;
+    min-height: 400px;
+
+}
+
+.texto2{
+        padding: 5rem;
+        padding-top: 45px;
+        font-size: 23px;
+        display: flex; 
+        flex-wrap: wrap-reverse;
 }
 
 #features{
     background: url(../img/index/bg-features.png);
     color: white;
-    padding:  1rem;
-    margin-top: 1.5rem;
+    padding: 10px;
+    padding-top: 45px;
+
 }
+
 .features-title{
-    background-color: rgba(0,0,0,0.35);
+    background-color: rgba(14, 12, 12, 0.35);
     text-align: center;
     padding: 10px;
     font-size: 1.5rem;

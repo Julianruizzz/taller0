@@ -227,7 +227,8 @@ nav a:hover {
     color: white;
     padding:  1rem;
     margin-top: 1.5rem;
-    height: 7rem;
+    height: 15rem;
+    margin-bottom: 2rem;
 }
 .opinion-title{
     text-align: center;
@@ -269,43 +270,37 @@ nav a:hover {
 
 }
 
-.opiniones{
-  display: flex;
-  flex-direction:column-reverse;
+.opinion-uno {
+    margin: 2rem;
+}
 
-  font-size: 1rem;
 
-}
-.opinion-uno .arriba{
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-  align-items: flex-end;
-}
-.opinion-uno .arriba p{
-  flex-direction: column;
-}
 
 .opinion-uno{
-    background-color: var(--azuloscuro);
-    background-image: url(../img/opinion/Vector-opinion.png);
-    padding: 1rem;
+ 
+   margin: 2rem;
 
 }
-.opinion-dos{
-    background-color: var(--azuloscuro);
-    background-image: url(../img/opinion/Vector-opinion.png);
-   justify-content: center;
+
+#footer{
+  background-color: var(--negro2);
+  color: var(--blanco);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-family: 'Marcellus', serif;
+  font-size: 1rem;
 }
-.opinion-tres{
-    background-color: var(--azuloscuro);
-    background-image: url(../img/opinion/Vector-opinion.png);
-   justify-content: center;
-}
+.botones {
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: var(--negro2); /*color botón*/
+    color: var(--blanco); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: 'Marcellus', serif;
+    }
 
-
-
-/*Resolución tabletas
+/*Resolución tabletas*/
 @media screen and (min-width:768px) {
   nav{
   background-color: var(--negro2);

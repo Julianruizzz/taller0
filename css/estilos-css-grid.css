@@ -161,25 +161,28 @@ nav a:hover {
         padding: 5rem;
         padding-top: 45px;
         font-size: 23px;
-        display: flex; 
-        flex-wrap: wrap-reverse;
+
 }
 
 #features{
     background: url(../img/index/bg-features.png);
     color: white;
     padding: 10px;
-    padding-top: 45px;
-
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 89px;
+    background-position: 1000px 100%;
 }
 
 .features-title{
     background-color: rgba(14, 12, 12, 0.35);
     text-align: center;
-    padding: 10px;
-    font-size: 1.5rem;
+    padding-top: 0%;
+    font-size: 40px;
+    min-height: 130px;
+    font-family: 'Marcellus', serif;
 }
-
 
 .features-description{
     display: flex;

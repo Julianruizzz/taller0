@@ -17,7 +17,7 @@ url('https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Roboto:ital,w
 
 html{
     background-color: rgba(0,0,0,0.8);
-    background-image: url(../img/bogota.jpg);
+    background-image: url(../img/Bogota.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -72,8 +72,11 @@ h1,h2,h3,h4,h5 {
 .formulario{
     grid-area: formulario;
     background-color: rgba(225, 228, 225, 0.86);
-    margin: 20px;
+    margin: 10px;
     border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .form{
@@ -118,6 +121,8 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: var(--negro2);
+    font-size: 20;
 }
 
 .footer input{
@@ -200,12 +205,12 @@ img{
 
     .column-1{
         grid-area: column-1; 
-        padding: 20px;
+        padding: 10px;
     }
 
     .column-2{
         grid-area: column-2; 
-        padding: 20px;
+        padding: 10px;
     }
 
     .form-check{
@@ -218,7 +223,6 @@ img{
     }
 
     .footer{
-        margin-top: 100px;
         display: flex;
         flex-direction: column;
     }

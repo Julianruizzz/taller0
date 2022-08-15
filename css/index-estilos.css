@@ -377,6 +377,8 @@ nav a:hover{
     display: none;
 }
 
+
+
 #opinion .cards .name-profession{
     grid-area: nombre;
     display: flex;

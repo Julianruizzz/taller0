@@ -23,30 +23,31 @@ body{
     
 }
 
+/*Estilos Grid Items*/
 header{
     grid-area: header;
-    background-color: aquamarine;
+    background-color: blue;
 
 }
 
 nav{
     grid-area: navbar;
-    background-color: bisque;
+    background-color: yellow;
 }
 
 main{
     grid-area: main;
-    background-color: cadetblue;
+    background-color: blueviolet;
 }
 
 aside{
     grid-area: sidebar;
-    background-color:dimgray;
+    background-color:green;
 }
 
 footer{
     grid-area: footer;
-    background-color:tan;
+    background-color:red;
 }
 
 /*Resolución tabletas*/
